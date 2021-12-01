@@ -1,0 +1,167 @@
+<!doctype html>
+<title>BridgeLabz</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+    text-align: center;
+  }
+  .col-1 {
+    background: #D7E8D4;
+    flex: 0.5;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .content {
+    flex: 4;
+    min-height: 60vh;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 50px;
+  }
+  footer, nav {
+    padding: 2em;
+  }
+  
+  footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 40px;
+        }
+
+.col-1 {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.col-1 {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-align: center;
+  padding: 40px 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 80px;
+}
+
+.col-1 {
+  background-color: rgb(221, 210, 210);
+  color: white;
+}
+
+.col-1 {
+  background-color:whitesmoke;
+  color: white;
+}
+
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+#form{
+    line-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+</style>
+
+<body>
+  <div class="col-1"> <!--  Navigation Bar -->
+
+        <a class="navbar" href="#">Home</a><br>
+        <a class="navbar" href="#">About</a><br>
+        <a class="navbar" href="#">Register </a><br>
+        <a class="navbar" href="#">Contact </a><br>
+
+  </div>
+
+  <div class="col-2">
+  	<header> <h2>Welcome</h2> </header>
+    <main class="content">
+   <form id = "form" >
+    <table>
+        <h3 Style = "text-align:center;"> Registration Form </h3>
+            <tr>
+                <td>
+                    First Name:
+                </td>
+    
+                <td>
+                    <input type="Name"  placeholder="First Name" name=””>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    Last Name:
+                </td>
+    
+                <td>
+                    <input type="Last Name" placeholder= "Last Name" name=””>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+    
+                <td>
+                    <input type="email" placeholder= "Email" name=””>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mobile Number:
+                </td>
+    
+                <td>
+                    <input type="number" placeholder= "Mobile Number" name=””>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+    
+                <td>
+                    <input type="password" placeholder= "Password" name=””>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                
+                </td>
+    
+                <td>
+                    <button type="submit" form="nameform" value="Submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form> 
+
+    </table>
+
+    </main>
+  	<footer> copyrights @bridgeLabz.com </footer>
+  </div>
+</body>
